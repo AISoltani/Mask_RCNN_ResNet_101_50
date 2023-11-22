@@ -1,6 +1,7 @@
-# Mask
+# Mask-RCNN
 Using Mask R-CNN over TensorFlow < 2.0 and Keras > 2.1.5
 
+# What is Mask-RCNN?
 Mask R-CNN is a deep learning model that combines object detection and instance segmentation. It is an extension of the Faster R-CNN architecture.
 
 The key innovation of Mask R-CNN lies in its ability to perform pixel-wise instance segmentation alongside object detection. This is achieved through the addition of an extra "mask head" branch, which generates precise segmentation masks for each detected object. This enables fine-grained pixel-level boundaries for accurate and detailed instance segmentation.
